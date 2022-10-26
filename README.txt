@@ -12,13 +12,13 @@ Requirements:
 
 1.- cd to the directory where this document is.
 
-2.- mkdir name1*
+2.- mkdir dir_name*
 
-3.- New-Item -Path .\name1\name2.proto**
+3.- New-Item -Path .\dir_name\file_name.proto**
 
-4.- .\name1\name2.proto to edit your .proto file
+4.- .\dir_name\file_name.proto to edit your .proto file
 
-5.- python .\nanopb\generator\nanopb_generator.py .\name1\name2.proto to generate name2.pb.c and name2.pb.h
+5.- python .\nanopb\generator\nanopb_generator.py .\dir_name\file_name.proto to generate file_name.pb.c and file_name.pb.h
 
 * name of the directory where you will store your .proto, .pb.c and .pb.h files
 ** name of your .proto file
